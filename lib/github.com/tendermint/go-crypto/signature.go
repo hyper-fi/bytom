@@ -1,8 +1,8 @@
 package crypto
 
 import (
-	"github.com/tendermint/go-wire"
-	data "github.com/tendermint/go-wire/data"
+	"github.com/tendermint/go-amino"
+	data "github.com/tendermint/go-amino/data"
 )
 
 func SignatureFromBytes(sigBytes []byte) (sig Signature, err error) {

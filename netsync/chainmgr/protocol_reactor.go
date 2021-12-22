@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/tendermint/go-wire"
+	"github.com/tendermint/go-amino"
 
 	"github.com/hyper-fi/bytom/errors"
 	msgs "github.com/hyper-fi/bytom/netsync/messages"

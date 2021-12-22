@@ -11,7 +11,7 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/tendermint/go-wire"
+	"github.com/tendermint/go-amino"
 	"golang.org/x/crypto/sha3"
 
 	"github.com/hyper-fi/bytom/common"

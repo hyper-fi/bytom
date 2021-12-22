@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 
 	"github.com/tendermint/ed25519"
-	"github.com/tendermint/go-wire"
-	"github.com/tendermint/go-wire/data"
+	"github.com/tendermint/go-amino"
+	"github.com/tendermint/go-amino/data"
 )
 
 func PrivKeyFromBytes(privKeyBytes []byte) (privKey PrivKey, err error) {

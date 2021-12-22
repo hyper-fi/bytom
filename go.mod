@@ -4,11 +4,8 @@ go 1.16
 
 replace (
 	github.com/tendermint/ed25519 => ./lib/github.com/tendermint/ed25519
-	github.com/tendermint/go-wire => github.com/tendermint/go-amino v0.6.2
-	github.com/zondax/ledger-goclient => github.com/Zondax/ledger-cosmos-go v0.1.0
 	golang.org/x/crypto => ./lib/golang.org/x/crypto
 	golang.org/x/net => ./lib/golang.org/x/net
-	gonum.org/v1/gonum/mat => github.com/gonum/gonum/mat v0.9.1
 )
 
 require (
@@ -52,7 +49,7 @@ require (
 	github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca
 	github.com/tendermint/ed25519 v0.0.0-20171027050219-d8387025d2b9
 	github.com/tendermint/go-crypto v0.2.0
-	github.com/tendermint/go-wire v0.16.0
+	github.com/tendermint/go-amino v0.16.0
 	github.com/tendermint/tmlibs v0.9.0
 	github.com/toqueteos/webbrowser v1.2.0
 	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2

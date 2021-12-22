@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	"github.com/tendermint/ed25519"
-	data "github.com/tendermint/go-wire/data"
+	data "github.com/tendermint/go-amino/data"
 	. "github.com/tendermint/tmlibs/common"
 )
 

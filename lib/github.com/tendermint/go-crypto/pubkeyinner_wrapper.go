@@ -5,7 +5,7 @@
 package crypto
 
 import (
-	"github.com/tendermint/go-wire/data"
+	"github.com/tendermint/go-amino/data"
 )
 
 // Auto-generated adapters for happily unmarshaling interfaces

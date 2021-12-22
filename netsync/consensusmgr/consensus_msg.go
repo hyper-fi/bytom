@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tendermint/go-wire"
+	"github.com/tendermint/go-amino"
 
 	"github.com/hyper-fi/bytom/netsync/peers"
 	"github.com/hyper-fi/bytom/protocol/bc"

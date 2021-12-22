@@ -7,7 +7,7 @@ import (
 	"time"
 
 	dbm "github.com/hyper-fi/bytom/database/leveldb"
-	"github.com/tendermint/go-wire"
+	"github.com/tendermint/go-amino"
 	"github.com/tendermint/tmlibs/flowrate"
 
 	"github.com/hyper-fi/bytom/consensus"

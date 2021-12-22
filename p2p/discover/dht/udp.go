@@ -12,7 +12,7 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/tendermint/go-wire"
+	"github.com/tendermint/go-amino"
 
 	"github.com/hyper-fi/bytom/common"
 	cfg "github.com/hyper-fi/bytom/config"

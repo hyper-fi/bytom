@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	wire "github.com/tendermint/go-wire"
+	wire "github.com/tendermint/go-amino"
 	cmn "github.com/tendermint/tmlibs/common"
 )
 

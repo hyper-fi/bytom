@@ -13,7 +13,7 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	wire "github.com/tendermint/go-wire"
+	wire "github.com/tendermint/go-amino"
 
 	"github.com/hyper-fi/bytom/crypto"
 	dbm "github.com/hyper-fi/bytom/database/leveldb"

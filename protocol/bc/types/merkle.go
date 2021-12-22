@@ -7,8 +7,8 @@ import (
 
 	"gopkg.in/fatih/set.v0"
 
-	"github.com/bytom/bytom/crypto/sha3pool"
-	"github.com/bytom/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/crypto/sha3pool"
+	"github.com/hyper-fi/bytom/protocol/bc"
 )
 
 // merkleFlag represent the type of merkle tree node, it's used to generate the structure of merkle tree

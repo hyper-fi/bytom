@@ -3,9 +3,9 @@ package types
 import (
 	"io"
 
-	"github.com/bytom/bytom/encoding/blockchain"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/encoding/blockchain"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/bc"
 )
 
 // VoteOutput satisfies the TypedOutput interface and represents a vote transaction.

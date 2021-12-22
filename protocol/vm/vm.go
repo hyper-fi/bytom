@@ -8,7 +8,7 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/bytom/bytom/errors"
+	"github.com/hyper-fi/bytom/errors"
 )
 
 type virtualMachine struct {

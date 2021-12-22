@@ -5,12 +5,12 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/toolbar/apinode"
-	"github.com/bytom/bytom/toolbar/common"
-	"github.com/bytom/bytom/toolbar/vote_reward/config"
-	"github.com/bytom/bytom/toolbar/vote_reward/database/orm"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/toolbar/apinode"
+	"github.com/hyper-fi/bytom/toolbar/common"
+	"github.com/hyper-fi/bytom/toolbar/vote_reward/config"
+	"github.com/hyper-fi/bytom/toolbar/vote_reward/database/orm"
 )
 
 var ErrInconsistentDB = errors.New("inconsistent db status")

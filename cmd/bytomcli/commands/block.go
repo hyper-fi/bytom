@@ -9,8 +9,8 @@ import (
 	"github.com/spf13/cobra"
 	jww "github.com/spf13/jwalterweatherman"
 
-	chainjson "github.com/bytom/bytom/encoding/json"
-	"github.com/bytom/bytom/util"
+	chainjson "github.com/hyper-fi/bytom/encoding/json"
+	"github.com/hyper-fi/bytom/util"
 )
 
 var getBlockHashCmd = &cobra.Command{

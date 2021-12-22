@@ -3,7 +3,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/bytom/bytom/testutil"
+	"github.com/hyper-fi/bytom/testutil"
 )
 
 func TestSpliceOps(t *testing.T) {

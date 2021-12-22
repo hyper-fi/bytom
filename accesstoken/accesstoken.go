@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	dbm "github.com/bytom/bytom/database/leveldb"
-	"github.com/bytom/bytom/errors"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	"github.com/hyper-fi/bytom/errors"
 )
 
 const tokenSize = 32

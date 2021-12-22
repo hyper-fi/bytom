@@ -3,12 +3,12 @@ package protocol
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/bytom/consensus/bcrp"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/protocol/state"
-	"github.com/bytom/bytom/protocol/validation"
+	"github.com/hyper-fi/bytom/consensus/bcrp"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol/state"
+	"github.com/hyper-fi/bytom/protocol/validation"
 )
 
 // ErrBadTx is returned for transactions failing validation

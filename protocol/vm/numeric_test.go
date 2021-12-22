@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/bytom/bytom/common"
-	"github.com/bytom/bytom/protocol/vm/mocks"
-	"github.com/bytom/bytom/testutil"
+	"github.com/hyper-fi/bytom/common"
+	"github.com/hyper-fi/bytom/protocol/vm/mocks"
+	"github.com/hyper-fi/bytom/testutil"
 )
 
 func TestNumericOps(t *testing.T) {

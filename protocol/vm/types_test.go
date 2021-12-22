@@ -8,7 +8,7 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/bytom/bytom/testutil"
+	"github.com/hyper-fi/bytom/testutil"
 )
 
 func TestBoolBytes(t *testing.T) {

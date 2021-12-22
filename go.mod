@@ -1,4 +1,4 @@
-module github.com/bytom/bytom
+module github.com/hyper-fi/bytom
 
 go 1.16
 

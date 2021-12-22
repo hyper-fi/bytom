@@ -12,17 +12,17 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/bytom/bytom/common"
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/crypto"
-	"github.com/bytom/bytom/crypto/ed25519/chainkd"
-	chainjson "github.com/bytom/bytom/encoding/json"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/protocol/vm"
-	"github.com/bytom/bytom/protocol/vm/vmutil"
-	"github.com/bytom/bytom/testutil"
+	"github.com/hyper-fi/bytom/common"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/crypto"
+	"github.com/hyper-fi/bytom/crypto/ed25519/chainkd"
+	chainjson "github.com/hyper-fi/bytom/encoding/json"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol/vm"
+	"github.com/hyper-fi/bytom/protocol/vm/vmutil"
+	"github.com/hyper-fi/bytom/testutil"
 )
 
 type testAction bc.AssetAmount

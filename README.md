@@ -40,13 +40,13 @@ $ go env GOROOT GOPATH
 - Get the source code
 
 ``` bash
-$ git clone https://github.com/Bytom/bytom.git $GOPATH/src/github.com/bytom/bytom
+$ git clone https://github.com/Bytom/bytom.git $GOPATH/src/github.com/hyper-fi/bytom
 ```
 
 - Build source code
 
 ``` bash
-$ cd $GOPATH/src/github.com/bytom/bytom
+$ cd $GOPATH/src/github.com/hyper-fi/bytom
 $ make bytomd    # build bytomd
 $ make bytomcli  # build bytomcli
 ```

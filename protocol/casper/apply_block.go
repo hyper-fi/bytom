@@ -5,12 +5,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/bytom/config"
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/protocol/state"
+	"github.com/hyper-fi/bytom/config"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol/state"
 )
 
 // ApplyBlock used to receive a new block from upper layer, it provides idempotence

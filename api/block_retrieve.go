@@ -3,10 +3,10 @@ package api
 import (
 	"gopkg.in/fatih/set.v0"
 
-	"github.com/bytom/bytom/blockchain/query"
-	chainjson "github.com/bytom/bytom/encoding/json"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/blockchain/query"
+	chainjson "github.com/hyper-fi/bytom/encoding/json"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
 )
 
 // return best block hash
@@ -98,7 +98,7 @@ func (a *API) getBlock(ins BlockReq) Response {
 
 		resOutID := orig.ResultIds[0]
 		resOut := orig.Entries[*resOutID]
-		switch out :=resOut.(type) {
+		switch out := resOut.(type) {
 		case *bc.OriginalOutput:
 			tx.MuxID = *out.Source.Ref
 		case *bc.VoteOutput:

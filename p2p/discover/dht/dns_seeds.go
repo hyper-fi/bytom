@@ -6,8 +6,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/errors"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/errors"
 )
 
 var (

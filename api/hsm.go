@@ -5,8 +5,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/bytom/blockchain/txbuilder"
-	"github.com/bytom/bytom/crypto/ed25519/chainkd"
+	"github.com/hyper-fi/bytom/blockchain/txbuilder"
+	"github.com/hyper-fi/bytom/crypto/ed25519/chainkd"
 )
 
 type createKeyResp struct {

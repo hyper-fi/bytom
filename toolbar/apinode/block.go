@@ -3,9 +3,9 @@ package apinode
 import (
 	"encoding/json"
 
-	"github.com/bytom/bytom/api"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/api"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
 )
 
 func (n *Node) GetBlockByHash(hash string) (*types.Block, error) {

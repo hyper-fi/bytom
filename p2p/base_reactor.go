@@ -3,7 +3,7 @@ package p2p
 import (
 	cmn "github.com/tendermint/tmlibs/common"
 
-	"github.com/bytom/bytom/p2p/connection"
+	"github.com/hyper-fi/bytom/p2p/connection"
 )
 
 //Reactor is responsible for handling incoming messages of one or more `Channels`

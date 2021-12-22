@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/bytom/bytom/util"
+	"github.com/hyper-fi/bytom/util"
 )
 
 var netInfoCmd = &cobra.Command{

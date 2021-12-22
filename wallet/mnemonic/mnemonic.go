@@ -17,7 +17,7 @@ import (
 	"github.com/johngb/langreg"
 	"golang.org/x/crypto/pbkdf2"
 
-	"github.com/bytom/bytom/wallet/mnemonic/wordlists"
+	"github.com/hyper-fi/bytom/wallet/mnemonic/wordlists"
 )
 
 var (

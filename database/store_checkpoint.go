@@ -7,9 +7,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	dbm "github.com/bytom/bytom/database/leveldb"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/state"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/state"
 )
 
 func calcCheckpointKey(height uint64, hash *bc.Hash) []byte {

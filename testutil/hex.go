@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/bytom/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc"
 )
 
 func MustDecodeHash(s string) (h bc.Hash) {

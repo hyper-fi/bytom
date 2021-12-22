@@ -8,9 +8,9 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/vm/mocks"
-	"github.com/bytom/bytom/testutil"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/vm/mocks"
+	"github.com/hyper-fi/bytom/testutil"
 )
 
 type tracebuf struct {

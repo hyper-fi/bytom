@@ -6,7 +6,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	chainjson "github.com/bytom/bytom/encoding/json"
+	chainjson "github.com/hyper-fi/bytom/encoding/json"
 )
 
 // TODO(bobg): most of the code here is duplicated from

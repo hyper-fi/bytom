@@ -15,9 +15,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	wire "github.com/tendermint/go-wire"
 
-	"github.com/bytom/bytom/crypto"
-	dbm "github.com/bytom/bytom/database/leveldb"
-	"github.com/bytom/bytom/errors"
+	"github.com/hyper-fi/bytom/crypto"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	"github.com/hyper-fi/bytom/errors"
 )
 
 var (

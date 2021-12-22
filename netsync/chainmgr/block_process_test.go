@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	dbm "github.com/bytom/bytom/database/leveldb"
-	"github.com/bytom/bytom/netsync/peers"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/test/mock"
-	"github.com/bytom/bytom/testcontrol"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	"github.com/hyper-fi/bytom/netsync/peers"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/test/mock"
+	"github.com/hyper-fi/bytom/testcontrol"
 )
 
 func TestBlockProcess(t *testing.T) {

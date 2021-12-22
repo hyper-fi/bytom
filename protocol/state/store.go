@@ -1,9 +1,9 @@
 package state
 
 import (
-	"github.com/bytom/bytom/database/storage"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/database/storage"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
 )
 
 // Store provides storage interface for blockchain data

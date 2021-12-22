@@ -6,11 +6,11 @@ import (
 	log "github.com/sirupsen/logrus"
 	cmn "github.com/tendermint/tmlibs/common"
 
-	cfg "github.com/bytom/bytom/config"
-	"github.com/bytom/bytom/crypto/ed25519/chainkd"
-	dbm "github.com/bytom/bytom/database/leveldb"
-	"github.com/bytom/bytom/p2p/connection"
-	"github.com/bytom/bytom/p2p/discover/dht"
+	cfg "github.com/hyper-fi/bytom/config"
+	"github.com/hyper-fi/bytom/crypto/ed25519/chainkd"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	"github.com/hyper-fi/bytom/p2p/connection"
+	"github.com/hyper-fi/bytom/p2p/discover/dht"
 )
 
 //PanicOnAddPeerErr add peer error

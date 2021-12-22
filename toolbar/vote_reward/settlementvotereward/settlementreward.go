@@ -7,11 +7,11 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/toolbar/apinode"
-	"github.com/bytom/bytom/toolbar/common"
-	"github.com/bytom/bytom/toolbar/vote_reward/config"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/toolbar/apinode"
+	"github.com/hyper-fi/bytom/toolbar/common"
+	"github.com/hyper-fi/bytom/toolbar/vote_reward/config"
 )
 
 var (

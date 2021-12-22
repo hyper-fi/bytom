@@ -8,8 +8,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/bytom/crypto/ed25519/chainkd"
-	"github.com/bytom/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/crypto/ed25519/chainkd"
+	"github.com/hyper-fi/bytom/protocol/bc"
 )
 
 // consensus variables
@@ -37,7 +37,7 @@ const (
 
 	BCRPRequiredBTMAmount = uint64(100000000)
 
-	BTMAlias = "BTM"
+	BTMAlias              = "BTM"
 	defaultVotePendingNum = 302400
 )
 
@@ -123,11 +123,11 @@ var MainNetParams = Params{
 	DefaultPort:     "46657",
 	DNSSeeds:        []string{},
 	CasperConfig: CasperConfig{
-		BlockTimeInterval:      6000,
-		MaxTimeOffsetMs:        3000,
-		BlocksOfEpoch:          100,
-		MinValidatorVoteNum:    1e14,
-		VotePendingBlockNums:   []VotePendingBlockNum{
+		BlockTimeInterval:   6000,
+		MaxTimeOffsetMs:     3000,
+		BlocksOfEpoch:       100,
+		MinValidatorVoteNum: 1e14,
+		VotePendingBlockNums: []VotePendingBlockNum{
 			{BeginBlock: 0, EndBlock: 432000, Num: 14400},
 			{BeginBlock: 432000, EndBlock: math.MaxUint64, Num: defaultVotePendingNum},
 		},
@@ -147,11 +147,11 @@ var TestNetParams = Params{
 	DefaultPort:     "46656",
 	DNSSeeds:        []string{},
 	CasperConfig: CasperConfig{
-		BlockTimeInterval:      6000,
-		MaxTimeOffsetMs:        3000,
-		BlocksOfEpoch:          100,
-		MinValidatorVoteNum:    1e8,
-		VotePendingBlockNums:   []VotePendingBlockNum{{BeginBlock: 0, EndBlock: math.MaxUint64, Num: 10}},
+		BlockTimeInterval:    6000,
+		MaxTimeOffsetMs:      3000,
+		BlocksOfEpoch:        100,
+		MinValidatorVoteNum:  1e8,
+		VotePendingBlockNums: []VotePendingBlockNum{{BeginBlock: 0, EndBlock: math.MaxUint64, Num: 10}},
 		FederationXpubs: []chainkd.XPub{
 			xpub("7732fac62320799ff5e4eec1dc4ba7b07dc0e5a647850bf0bc34cb9aca195a05a1118b57d377947d7936156c831c87b700ed945a82cae63aff14905beb39d001"),
 			xpub("08543fef8c3ca27483954f80eee6d461c307b6aa564aafaf235a4bd2740debbc71b14af78715c94cbc1d16fa84da97a3eabc5b21f003ab49882e4af7f9f00bbd"),
@@ -166,12 +166,12 @@ var SoloNetParams = Params{
 	Name:            "solo",
 	Bech32HRPSegwit: "sn",
 	CasperConfig: CasperConfig{
-		BlockTimeInterval:      6000,
-		MaxTimeOffsetMs:        24000,
-		BlocksOfEpoch:          100,
-		MinValidatorVoteNum:    1e8,
-		VotePendingBlockNums:   []VotePendingBlockNum{{BeginBlock: 0, EndBlock: math.MaxUint64, Num: 10}},
-		FederationXpubs:        []chainkd.XPub{},
+		BlockTimeInterval:    6000,
+		MaxTimeOffsetMs:      24000,
+		BlocksOfEpoch:        100,
+		MinValidatorVoteNum:  1e8,
+		VotePendingBlockNums: []VotePendingBlockNum{{BeginBlock: 0, EndBlock: math.MaxUint64, Num: 10}},
+		FederationXpubs:      []chainkd.XPub{},
 	},
 }
 

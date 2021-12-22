@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bytom/bytom/errors"
+	"github.com/hyper-fi/bytom/errors"
 )
 
 // TestIsUnspendable ensures the IsUnspendable function returns the expected

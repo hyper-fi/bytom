@@ -1,15 +1,15 @@
 package test
 
 import (
-	"github.com/bytom/bytom/crypto/sha3pool"
-	"github.com/bytom/bytom/database"
-	"github.com/bytom/bytom/event"
-	"github.com/bytom/bytom/protocol"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/protocol/state"
-	"github.com/bytom/bytom/protocol/validation"
-	"github.com/bytom/bytom/protocol/vm"
+	"github.com/hyper-fi/bytom/crypto/sha3pool"
+	"github.com/hyper-fi/bytom/database"
+	"github.com/hyper-fi/bytom/event"
+	"github.com/hyper-fi/bytom/protocol"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol/state"
+	"github.com/hyper-fi/bytom/protocol/validation"
+	"github.com/hyper-fi/bytom/protocol/vm"
 )
 
 func mockChainWithStore(store *database.Store) (*protocol.Chain, *database.Store, *protocol.TxPool, error) {

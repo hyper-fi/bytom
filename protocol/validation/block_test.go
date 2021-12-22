@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/protocol/state"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol/state"
 )
 
 func TestCheckBlockTime(t *testing.T) {

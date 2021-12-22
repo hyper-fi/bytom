@@ -9,10 +9,10 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/encoding/blockchain"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/testutil"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/encoding/blockchain"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/testutil"
 )
 
 func TestBlock(t *testing.T) {
@@ -34,8 +34,8 @@ func TestBlock(t *testing.T) {
 				"01", // version
 				"01", // block height
 				"0000000000000000000000000000000000000000000000000000000000000000", // prev block hash
-				"00",   // timestamp
-				"20",   // commitment extensible field length
+				"00", // timestamp
+				"20", // commitment extensible field length
 				"0000000000000000000000000000000000000000000000000000000000000000", // transactions merkle root
 				"0100", // block witness
 				"0100", // sup links

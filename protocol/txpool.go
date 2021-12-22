@@ -9,12 +9,12 @@ import (
 	"github.com/golang/groupcache/lru"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/consensus/bcrp"
-	"github.com/bytom/bytom/event"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/protocol/state"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/consensus/bcrp"
+	"github.com/hyper-fi/bytom/event"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol/state"
 )
 
 // msg type

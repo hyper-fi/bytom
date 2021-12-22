@@ -6,16 +6,16 @@ import (
 	"net"
 	"time"
 
-	dbm "github.com/bytom/bytom/database/leveldb"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
 	"github.com/tendermint/go-wire"
 	"github.com/tendermint/tmlibs/flowrate"
 
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/event"
-	"github.com/bytom/bytom/netsync/peers"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/test/mock"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/event"
+	"github.com/hyper-fi/bytom/netsync/peers"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/test/mock"
 )
 
 type P2PPeer struct {

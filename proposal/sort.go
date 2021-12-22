@@ -1,6 +1,6 @@
 package proposal
 
-import "github.com/bytom/bytom/protocol"
+import "github.com/hyper-fi/bytom/protocol"
 
 type byTime []*protocol.TxDesc
 

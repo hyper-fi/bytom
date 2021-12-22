@@ -9,14 +9,14 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/bytom/bytom/consensus"
-	dbm "github.com/bytom/bytom/database/leveldb"
-	"github.com/bytom/bytom/protocol"
-	core "github.com/bytom/bytom/protocol"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/test/mock"
-	"github.com/bytom/bytom/testcontrol"
+	"github.com/hyper-fi/bytom/consensus"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	"github.com/hyper-fi/bytom/protocol"
+	core "github.com/hyper-fi/bytom/protocol"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/test/mock"
+	"github.com/hyper-fi/bytom/testcontrol"
 )
 
 const txsNumber = 2000

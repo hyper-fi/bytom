@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/bytom/bytom/toolbar/common"
+	"github.com/hyper-fi/bytom/toolbar/common"
 )
 
 type Config struct {

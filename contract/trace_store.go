@@ -5,8 +5,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	dbm "github.com/bytom/bytom/database/leveldb"
-	"github.com/bytom/bytom/protocol/bc"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	"github.com/hyper-fi/bytom/protocol/bc"
 )
 
 const (
@@ -28,7 +28,6 @@ func instanceKey(traceID string) []byte {
 func chainStatusKey() []byte {
 	return chainStatusPrefixKey
 }
-
 
 type TraceStore struct {
 	db dbm.DB

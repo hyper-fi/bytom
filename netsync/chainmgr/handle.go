@@ -7,17 +7,17 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	cfg "github.com/bytom/bytom/config"
-	"github.com/bytom/bytom/consensus"
-	dbm "github.com/bytom/bytom/database/leveldb"
-	"github.com/bytom/bytom/event"
-	msgs "github.com/bytom/bytom/netsync/messages"
-	"github.com/bytom/bytom/netsync/peers"
-	"github.com/bytom/bytom/p2p"
-	"github.com/bytom/bytom/p2p/security"
-	core "github.com/bytom/bytom/protocol"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
+	cfg "github.com/hyper-fi/bytom/config"
+	"github.com/hyper-fi/bytom/consensus"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	"github.com/hyper-fi/bytom/event"
+	msgs "github.com/hyper-fi/bytom/netsync/messages"
+	"github.com/hyper-fi/bytom/netsync/peers"
+	"github.com/hyper-fi/bytom/p2p"
+	"github.com/hyper-fi/bytom/p2p/security"
+	core "github.com/hyper-fi/bytom/protocol"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
 )
 
 const (

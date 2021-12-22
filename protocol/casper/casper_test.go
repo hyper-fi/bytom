@@ -3,9 +3,9 @@ package casper
 import (
 	"testing"
 
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/state"
-	"github.com/bytom/bytom/testutil"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/state"
+	"github.com/hyper-fi/bytom/testutil"
 )
 
 func TestBestChain(t *testing.T) {

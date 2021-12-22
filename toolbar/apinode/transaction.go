@@ -4,11 +4,11 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/bytom/bytom/blockchain/txbuilder"
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/blockchain/txbuilder"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
 )
 
 type SpendAccountAction struct {

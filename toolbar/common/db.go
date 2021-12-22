@@ -6,7 +6,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 
-	"github.com/bytom/bytom/errors"
+	"github.com/hyper-fi/bytom/errors"
 )
 
 func NewMySQLDB(cfg MySQLConfig) (*gorm.DB, error) {

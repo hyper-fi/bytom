@@ -5,9 +5,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/netsync/peers"
-	"github.com/bytom/bytom/p2p/security"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/netsync/peers"
+	"github.com/hyper-fi/bytom/p2p/security"
 )
 
 var errOrphanBlock = errors.New("fast sync inserting orphan block")

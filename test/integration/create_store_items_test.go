@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bytom/bytom/database"
-	"github.com/bytom/bytom/database/storage"
-	"github.com/bytom/bytom/testutil"
+	"github.com/hyper-fi/bytom/database"
+	"github.com/hyper-fi/bytom/database/storage"
+	"github.com/hyper-fi/bytom/testutil"
 )
 
 func TestCreateStoreItems(t *testing.T) {

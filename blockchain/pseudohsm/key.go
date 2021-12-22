@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/bytom/bytom/crypto/ed25519/chainkd"
+	"github.com/hyper-fi/bytom/crypto/ed25519/chainkd"
 	"github.com/pborman/uuid"
 )
 

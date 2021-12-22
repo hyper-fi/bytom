@@ -10,11 +10,11 @@ import (
 	"github.com/tendermint/tmlibs/flowrate"
 	"gopkg.in/fatih/set.v0"
 
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/errors"
-	msgs "github.com/bytom/bytom/netsync/messages"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/errors"
+	msgs "github.com/hyper-fi/bytom/netsync/messages"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
 )
 
 const (

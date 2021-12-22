@@ -8,11 +8,11 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/bytom/bytom/crypto/sha3pool"
-	"github.com/bytom/bytom/database"
-	dbm "github.com/bytom/bytom/database/leveldb"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/vm"
+	"github.com/hyper-fi/bytom/crypto/sha3pool"
+	"github.com/hyper-fi/bytom/database"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/vm"
 )
 
 func TestRegisterContract(t *testing.T) {

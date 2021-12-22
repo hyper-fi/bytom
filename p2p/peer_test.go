@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	cfg "github.com/bytom/bytom/config"
-	"github.com/bytom/bytom/crypto/ed25519/chainkd"
-	conn "github.com/bytom/bytom/p2p/connection"
-	"github.com/bytom/bytom/version"
+	cfg "github.com/hyper-fi/bytom/config"
+	"github.com/hyper-fi/bytom/crypto/ed25519/chainkd"
+	conn "github.com/hyper-fi/bytom/p2p/connection"
+	"github.com/hyper-fi/bytom/version"
 )
 
 const testCh = 0x01

@@ -5,15 +5,15 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/bytom/bytom/config"
-	"github.com/bytom/bytom/consensus"
-	dbm "github.com/bytom/bytom/database/leveldb"
-	"github.com/bytom/bytom/event"
-	"github.com/bytom/bytom/netsync/chainmgr"
-	"github.com/bytom/bytom/netsync/consensusmgr"
-	"github.com/bytom/bytom/netsync/peers"
-	"github.com/bytom/bytom/p2p"
-	"github.com/bytom/bytom/protocol"
+	"github.com/hyper-fi/bytom/config"
+	"github.com/hyper-fi/bytom/consensus"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	"github.com/hyper-fi/bytom/event"
+	"github.com/hyper-fi/bytom/netsync/chainmgr"
+	"github.com/hyper-fi/bytom/netsync/consensusmgr"
+	"github.com/hyper-fi/bytom/netsync/peers"
+	"github.com/hyper-fi/bytom/p2p"
+	"github.com/hyper-fi/bytom/protocol"
 )
 
 const (

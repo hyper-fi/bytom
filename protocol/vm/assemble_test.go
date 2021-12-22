@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/bytom/bytom/errors"
+	"github.com/hyper-fi/bytom/errors"
 )
 
 func TestAssemble(t *testing.T) {

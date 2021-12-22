@@ -10,8 +10,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/math/checked"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/math/checked"
 )
 
 // Assemble converts a string like "2 3 ADD 5 NUMEQUAL" into 0x525393559c.

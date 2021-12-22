@@ -7,12 +7,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/bytom/account"
-	"github.com/bytom/bytom/config"
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/event"
-	"github.com/bytom/bytom/proposal"
-	"github.com/bytom/bytom/protocol"
+	"github.com/hyper-fi/bytom/account"
+	"github.com/hyper-fi/bytom/config"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/event"
+	"github.com/hyper-fi/bytom/proposal"
+	"github.com/hyper-fi/bytom/protocol"
 )
 
 const (

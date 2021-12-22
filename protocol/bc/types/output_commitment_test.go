@@ -5,9 +5,9 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/bytom/bytom/encoding/blockchain"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/testutil"
+	"github.com/hyper-fi/bytom/encoding/blockchain"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/testutil"
 )
 
 func TestReadWriteOutputCommitment(t *testing.T) {

@@ -1,7 +1,7 @@
 package testutil
 
 import (
-	"github.com/bytom/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc"
 )
 
 var (

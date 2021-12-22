@@ -10,17 +10,17 @@ import (
 	log "github.com/sirupsen/logrus"
 	cmn "github.com/tendermint/tmlibs/common"
 
-	cfg "github.com/bytom/bytom/config"
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/crypto/ed25519/chainkd"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/event"
-	"github.com/bytom/bytom/p2p/connection"
-	"github.com/bytom/bytom/p2p/discover/dht"
-	"github.com/bytom/bytom/p2p/discover/mdns"
-	"github.com/bytom/bytom/p2p/netutil"
-	"github.com/bytom/bytom/p2p/security"
-	"github.com/bytom/bytom/version"
+	cfg "github.com/hyper-fi/bytom/config"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/crypto/ed25519/chainkd"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/event"
+	"github.com/hyper-fi/bytom/p2p/connection"
+	"github.com/hyper-fi/bytom/p2p/discover/dht"
+	"github.com/hyper-fi/bytom/p2p/discover/mdns"
+	"github.com/hyper-fi/bytom/p2p/netutil"
+	"github.com/hyper-fi/bytom/p2p/security"
+	"github.com/hyper-fi/bytom/version"
 )
 
 const (
@@ -68,7 +68,7 @@ type Switch struct {
 	reactorsByCh map[byte]Reactor
 	peers        *PeerSet
 	dialing      *cmn.CMap
-	nodeInfo     *NodeInfo             // our node info
+	nodeInfo     *NodeInfo    // our node info
 	nodePrivKey  chainkd.XPrv // our node privkey
 	discv        discv
 	lanDiscv     lanDiscv

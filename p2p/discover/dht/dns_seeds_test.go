@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bytom/bytom/consensus"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/hyper-fi/bytom/consensus"
 )
 
 var testnetAddr = []string{"1.2.3.4", "5.6.7.8"}

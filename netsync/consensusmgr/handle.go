@@ -6,13 +6,13 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/bytom/bytom/event"
-	"github.com/bytom/bytom/netsync/peers"
-	"github.com/bytom/bytom/p2p"
-	"github.com/bytom/bytom/p2p/security"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/protocol/casper"
+	"github.com/hyper-fi/bytom/event"
+	"github.com/hyper-fi/bytom/netsync/peers"
+	"github.com/hyper-fi/bytom/p2p"
+	"github.com/hyper-fi/bytom/p2p/security"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol/casper"
 )
 
 // Switch is the interface for p2p switch.

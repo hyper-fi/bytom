@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/bytom/bytom/encoding/blockchain"
+	"github.com/hyper-fi/bytom/encoding/blockchain"
 )
 
 // BlockWitness save the consensus node sign

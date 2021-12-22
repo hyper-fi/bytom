@@ -3,9 +3,9 @@ package segwit
 import (
 	"errors"
 
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/protocol/vm"
-	"github.com/bytom/bytom/protocol/vm/vmutil"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/protocol/vm"
+	"github.com/hyper-fi/bytom/protocol/vm/vmutil"
 )
 
 func IsP2WScript(prog []byte) bool {

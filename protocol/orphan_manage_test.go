@@ -4,23 +4,23 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/testutil"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/testutil"
 )
 
 var testBlocks = []*types.Block{
 	{BlockHeader: types.BlockHeader{
 		PreviousBlockHash: bc.Hash{V0: 1},
-		Timestamp: 0,
+		Timestamp:         0,
 	}},
 	{BlockHeader: types.BlockHeader{
 		PreviousBlockHash: bc.Hash{V0: 1},
-		Timestamp: 1,
+		Timestamp:         1,
 	}},
 	{BlockHeader: types.BlockHeader{
 		PreviousBlockHash: bc.Hash{V0: 2},
-		Timestamp: 3,
+		Timestamp:         3,
 	}},
 }
 

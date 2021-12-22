@@ -11,7 +11,7 @@ endif
 
 PACKAGES    := $(shell go list ./... | grep -v '/lib/')
 
-BUILD_FLAGS := -ldflags "-X github.com/bytom/bytom/version.GitCommit=`git rev-parse HEAD`"
+BUILD_FLAGS := -ldflags "-X github.com/hyper-fi/bytom/version.GitCommit=`git rev-parse HEAD`"
 
 BYTOMD_BINARY32 := bytomd-$(GOOS)_386
 BYTOMD_BINARY64 := bytomd-$(GOOS)_amd64

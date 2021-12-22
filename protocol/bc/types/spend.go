@@ -3,8 +3,8 @@ package types
 import (
 	"io"
 
-	"github.com/bytom/bytom/encoding/blockchain"
-	"github.com/bytom/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/encoding/blockchain"
+	"github.com/hyper-fi/bytom/protocol/bc"
 )
 
 // SpendInput satisfies the TypedInput interface and represents a spend transaction.

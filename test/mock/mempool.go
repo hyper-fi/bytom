@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"github.com/bytom/bytom/protocol"
-	"github.com/bytom/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
 )
 
 type Mempool struct {

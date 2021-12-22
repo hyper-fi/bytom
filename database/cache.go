@@ -6,10 +6,10 @@ import (
 
 	"github.com/golang/groupcache/singleflight"
 
-	"github.com/bytom/bytom/common"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/protocol/state"
+	"github.com/hyper-fi/bytom/common"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol/state"
 )
 
 const (

@@ -9,13 +9,13 @@ import (
 
 	"github.com/tendermint/tmlibs/flowrate"
 
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/event"
-	"github.com/bytom/bytom/netsync/peers"
-	"github.com/bytom/bytom/p2p"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/protocol/casper"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/event"
+	"github.com/hyper-fi/bytom/netsync/peers"
+	"github.com/hyper-fi/bytom/p2p"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol/casper"
 )
 
 type p2peer struct {

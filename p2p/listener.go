@@ -10,9 +10,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	cmn "github.com/tendermint/tmlibs/common"
 
-	cfg "github.com/bytom/bytom/config"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/p2p/upnp"
+	cfg "github.com/hyper-fi/bytom/config"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/p2p/upnp"
 )
 
 const (

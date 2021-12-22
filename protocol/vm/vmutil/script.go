@@ -3,9 +3,9 @@ package vmutil
 import (
 	"crypto/ed25519"
 
-	"github.com/bytom/bytom/consensus/bcrp"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/vm"
+	"github.com/hyper-fi/bytom/consensus/bcrp"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/vm"
 )
 
 // pre-define errors

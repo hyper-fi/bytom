@@ -3,9 +3,9 @@ package asset
 import (
 	"encoding/json"
 
-	"github.com/bytom/bytom/blockchain/query"
-	chainjson "github.com/bytom/bytom/encoding/json"
-	"github.com/bytom/bytom/protocol/vm/vmutil"
+	"github.com/hyper-fi/bytom/blockchain/query"
+	chainjson "github.com/hyper-fi/bytom/encoding/json"
+	"github.com/hyper-fi/bytom/protocol/vm/vmutil"
 )
 
 func isValidJSON(b []byte) bool {

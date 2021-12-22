@@ -1,8 +1,8 @@
 package bc
 
 import (
-	"github.com/bytom/bytom/crypto/sha3pool"
-	"github.com/bytom/bytom/errors"
+	"github.com/hyper-fi/bytom/crypto/sha3pool"
+	"github.com/hyper-fi/bytom/errors"
 )
 
 // Convenience routines for accessing entries of specific types by ID.

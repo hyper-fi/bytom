@@ -9,12 +9,12 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	cfg "github.com/bytom/bytom/config"
-	"github.com/bytom/bytom/crypto/ed25519/chainkd"
-	dbm "github.com/bytom/bytom/database/leveldb"
-	"github.com/bytom/bytom/errors"
-	conn "github.com/bytom/bytom/p2p/connection"
-	"github.com/bytom/bytom/p2p/security"
+	cfg "github.com/hyper-fi/bytom/config"
+	"github.com/hyper-fi/bytom/crypto/ed25519/chainkd"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	"github.com/hyper-fi/bytom/errors"
+	conn "github.com/hyper-fi/bytom/p2p/connection"
+	"github.com/hyper-fi/bytom/p2p/security"
 )
 
 var (

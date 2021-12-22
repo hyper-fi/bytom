@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bytom/bytom/netsync/peers"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/protocol/casper"
+	"github.com/hyper-fi/bytom/netsync/peers"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol/casper"
 )
 
 type peerMgr struct {

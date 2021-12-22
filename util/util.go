@@ -3,9 +3,9 @@ package util
 import (
 	"context"
 
-	"github.com/bytom/bytom/api"
-	"github.com/bytom/bytom/blockchain/rpc"
-	"github.com/bytom/bytom/env"
+	"github.com/hyper-fi/bytom/api"
+	"github.com/hyper-fi/bytom/blockchain/rpc"
+	"github.com/hyper-fi/bytom/env"
 	jww "github.com/spf13/jwalterweatherman"
 )
 

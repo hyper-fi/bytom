@@ -1,10 +1,10 @@
 package txbuilder
 
 import (
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/consensus/segwit"
-	"github.com/bytom/bytom/protocol/bc/types"
-	"github.com/bytom/bytom/protocol/vm/vmutil"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/consensus/segwit"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/protocol/vm/vmutil"
 )
 
 const (

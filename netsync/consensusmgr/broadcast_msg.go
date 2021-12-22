@@ -1,7 +1,7 @@
 package consensusmgr
 
 import (
-	"github.com/bytom/bytom/netsync/peers"
+	"github.com/hyper-fi/bytom/netsync/peers"
 )
 
 // BroadcastMsg the message that can be broadcast

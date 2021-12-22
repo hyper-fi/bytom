@@ -1,10 +1,10 @@
 package state
 
 import (
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/database/storage"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/database/storage"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/bc"
 )
 
 // UtxoViewpoint represents a view into the set of unspent transaction outputs
@@ -42,7 +42,7 @@ func (view *UtxoViewpoint) applySpendUtxo(block *bc.Block, tx *bc.Tx) error {
 				return errors.New("coinbase utxo is not ready for use")
 			}
 		case storage.VoteUTXOType:
-			if entry.BlockHeight + consensus.VotePendingBlockNums(block.Height) > block.Height {
+			if entry.BlockHeight+consensus.VotePendingBlockNums(block.Height) > block.Height {
 				return errors.New("Coin is  within the voting lock time")
 			}
 		}
@@ -59,7 +59,6 @@ func (view *UtxoViewpoint) applyOutputUtxo(block *bc.Block, tx *bc.Tx) error {
 			// error due to it's a retirement, utxo doesn't care this output type so skip it
 			continue
 		}
-
 
 		var utxoType uint32
 		var amount uint64

@@ -3,7 +3,7 @@ package performance
 import (
 	"testing"
 
-	"github.com/bytom/bytom/util"
+	"github.com/hyper-fi/bytom/util"
 )
 
 // Test rpc call benchmark - 0.1 s/op

@@ -4,12 +4,12 @@ import (
 	"context"
 	"strings"
 
-	"github.com/bytom/bytom/contract"
-	"github.com/bytom/bytom/crypto/sha3pool"
-	chainjson "github.com/bytom/bytom/encoding/json"
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/vm/vmutil"
+	"github.com/hyper-fi/bytom/contract"
+	"github.com/hyper-fi/bytom/crypto/sha3pool"
+	chainjson "github.com/hyper-fi/bytom/encoding/json"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/vm/vmutil"
 )
 
 // pre-define errors for supporting bytom errorFormatter

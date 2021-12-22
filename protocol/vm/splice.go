@@ -3,7 +3,7 @@ package vm
 import (
 	"github.com/holiman/uint256"
 
-	"github.com/bytom/bytom/math/checked"
+	"github.com/hyper-fi/bytom/math/checked"
 )
 
 func opCat(vm *virtualMachine) error {

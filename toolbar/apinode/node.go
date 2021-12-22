@@ -3,8 +3,8 @@ package apinode
 import (
 	"encoding/json"
 
-	"github.com/bytom/bytom/errors"
-	"github.com/bytom/bytom/toolbar/common"
+	"github.com/hyper-fi/bytom/errors"
+	"github.com/hyper-fi/bytom/toolbar/common"
 )
 
 // Node can invoke the api which provide by the full node server

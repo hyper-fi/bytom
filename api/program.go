@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/bytom/bytom/consensus/segwit"
-	"github.com/bytom/bytom/protocol/vm"
+	"github.com/hyper-fi/bytom/consensus/segwit"
+	"github.com/hyper-fi/bytom/protocol/vm"
 )
 
 // DecodeProgResp is response for decode program

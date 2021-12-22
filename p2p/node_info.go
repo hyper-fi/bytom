@@ -7,9 +7,9 @@ import (
 	"net"
 	"strconv"
 
-	cfg "github.com/bytom/bytom/config"
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/version"
+	cfg "github.com/hyper-fi/bytom/config"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/version"
 )
 
 const maxNodeInfoSize = 10240 // 10Kb

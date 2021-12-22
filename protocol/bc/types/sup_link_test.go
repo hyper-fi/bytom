@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bytom/bytom/consensus"
-	"github.com/bytom/bytom/encoding/blockchain"
-	"github.com/bytom/bytom/testutil"
+	"github.com/hyper-fi/bytom/consensus"
+	"github.com/hyper-fi/bytom/encoding/blockchain"
+	"github.com/hyper-fi/bytom/testutil"
 )
 
 func TestReadWriteSupLink(t *testing.T) {
@@ -101,7 +101,7 @@ func TestReadWriteSupLink(t *testing.T) {
 				},
 			},
 			hexString: strings.Join([]string{
-				"01", // len of sup links,
+				"01",   // len of sup links,
 				"c801", // source height
 				"0a3cd1175e295a35c2b63054969c3fe54eeaa3eb68258227b28d8daa6cf4c50c", // source hash
 				"40", // len of signature 1

@@ -10,7 +10,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/bytom/bytom/crypto/ed25519/chainkd"
+	"github.com/hyper-fi/bytom/crypto/ed25519/chainkd"
 )
 
 var (

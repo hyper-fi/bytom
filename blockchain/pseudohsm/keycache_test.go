@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bytom/bytom/crypto/ed25519/chainkd"
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/hyper-fi/bytom/crypto/ed25519/chainkd"
 )
 
 var (

@@ -1,9 +1,9 @@
 package state
 
 import (
-	"github.com/bytom/bytom/consensus/bcrp"
-	"github.com/bytom/bytom/crypto/sha3pool"
-	"github.com/bytom/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/consensus/bcrp"
+	"github.com/hyper-fi/bytom/crypto/sha3pool"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
 )
 
 // ContractViewpoint represents a view into the set of registered contract

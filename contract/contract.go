@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"sync"
 
-	dbm "github.com/bytom/bytom/database/leveldb"
-	chainjson "github.com/bytom/bytom/encoding/json"
-	"github.com/bytom/bytom/errors"
+	dbm "github.com/hyper-fi/bytom/database/leveldb"
+	chainjson "github.com/hyper-fi/bytom/encoding/json"
+	"github.com/hyper-fi/bytom/errors"
 )
 
 var (

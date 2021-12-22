@@ -8,9 +8,9 @@ import (
 
 	"github.com/tendermint/go-wire"
 
-	"github.com/bytom/bytom/netsync/peers"
-	"github.com/bytom/bytom/protocol/bc"
-	"github.com/bytom/bytom/protocol/bc/types"
+	"github.com/hyper-fi/bytom/netsync/peers"
+	"github.com/hyper-fi/bytom/protocol/bc"
+	"github.com/hyper-fi/bytom/protocol/bc/types"
 )
 
 const (

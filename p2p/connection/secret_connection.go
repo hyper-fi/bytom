@@ -12,8 +12,8 @@ import (
 	"net"
 	"time"
 
+	"github.com/hyper-fi/bytom/crypto/ed25519/chainkd"
 	log "github.com/sirupsen/logrus"
-	"github.com/bytom/bytom/crypto/ed25519/chainkd"
 	"golang.org/x/crypto/nacl/box"
 	"golang.org/x/crypto/nacl/secretbox"
 	"golang.org/x/crypto/ripemd160"
